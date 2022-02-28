@@ -4,8 +4,6 @@ str1 = ''
 if num2 >= num1:
     for i in range (num1, num2+1, 5):
            print(i, end = ' ')
-    print()
-
-       
+    print()    
 else:
     print("Second integer can't be less than the first.")
