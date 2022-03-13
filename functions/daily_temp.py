@@ -11,5 +11,4 @@ def daily_temp(scale, degree):
         print( '%.0f Fahrenheit is %.0f Celsius' %(degree, c))
     else:
         print( "Invalid input")
-
 daily_temp(scale, degree)
