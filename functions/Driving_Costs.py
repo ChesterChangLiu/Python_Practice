@@ -15,7 +15,7 @@ def print_example():
     print(f'{cost:.2f}')
 
 
-if __name__ == '__main__':             #if this script is being run as the main script, run some code, otherwise (if this script is being run as a module) don't
+if __name__ == '__main__':    #if this script is being run as the main script, run some code, otherwise (if this script is being run as a module) don't
     input_compute_and_print()
     #print_example()
  
