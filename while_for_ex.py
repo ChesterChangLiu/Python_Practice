@@ -10,4 +10,4 @@ while num >= 0:
         for i in range(num):
            print('*')
         print('For loop ends here')
-print('Goodbye.')
+print('Goodbye!')
