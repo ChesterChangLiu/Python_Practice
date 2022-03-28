@@ -11,4 +11,4 @@ def solution(S):
             return False
         if pnum[0].isdecimal() and pnum[1].isdecimal() and pnum[2].isdecimal(): 
             return True
-     return False
+    return False
