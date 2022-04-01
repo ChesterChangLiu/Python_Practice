@@ -33,7 +33,6 @@ def ordinal(value):
 
     return ordval
     '''
-
 if __name__ == '__main__':
     num = int(input("Enter a number: "))
     print("Ordinal number:", ordinal(num))
