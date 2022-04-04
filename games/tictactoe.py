@@ -1,6 +1,5 @@
 import itertools
 
-
 def win(current_game):
 
     def all_same(l):
