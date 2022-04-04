@@ -1,7 +1,6 @@
 """
 Dynamic Programming solution to the fibonacci sequence problem.
 """
-
 class Fibonacci:
     def __init__(self) -> None:
         self.sequence = [0, 1]
@@ -21,12 +20,11 @@ class Fibonacci:
                 self.sequence.append(self.sequence[-1] + self.sequence[-2])
         return self.sequence[:index]
 
-
 def main():
     print(
-        "Fibonacci Series Using Dynamic Programming\n",
-        "Enter the index of the Fibonacci number you want to calculate ",
-        "in the prompt below. (To exit enter exit or Ctrl-C)\n",
+        "Fibonacci Series Using Dynamic Programming",
+        "Enter the index of the Fibonacci number you want to calculate",
+        "in the prompt below. (To exit enter exit or Ctrl-C)",
         sep="",
     )
     fibonacci = Fibonacci()
@@ -43,7 +41,6 @@ def main():
             continue
 
         print(fibonacci.get(index))
-
 
 if __name__ == "__main__":
     main()
