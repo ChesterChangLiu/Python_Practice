@@ -29,7 +29,7 @@ draw = ImageDraw.Draw(watermark_image) # create a drawing object
 font = ImageFont.truetype("arial.ttf", size=100) # choose font
 draw.text((0, 0), "Watermark", (0,0,0), font=font) # add text
 plt.imshow(watermark_image)
-#watermark_image.show()
+#plt.show()
 
 # Image Watermark
 size = (500, 500)
@@ -42,7 +42,7 @@ plt.imshow(copied_image)
 copied_image.show()
 
 #Convert Image to Black and White
-bw_image = image.convert("L") #convert to black and white
+bw_image = image.convert("L") # convert to black and white
 plt.imshow(bw_image, cmap="gray") #use cmap = "gray" for matplotlib to correctly show black and white
 #bw_image.show()
 
