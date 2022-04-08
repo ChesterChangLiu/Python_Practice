@@ -42,7 +42,7 @@ plt.imshow(copied_image)
 copied_image.show()
 
 #Convert Image to Black and White
-bw_image = image.convert("L") # convert to black and white
+bw_image = image.convert("L") #convert to black and white
 plt.imshow(bw_image, cmap="gray") #use cmap = "gray" for matplotlib to correctly show black and white
 #bw_image.show()
 
