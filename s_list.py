@@ -1,6 +1,5 @@
 from turtle import clear
 
-
 numbers = [3, 7, 1, 4, 2, 8, 5, 6]
 numbers *= 2
 print(numbers.index(5, 7)) # Output: 14=index of the number 5 in a search which starts at index=7(at number 6)
