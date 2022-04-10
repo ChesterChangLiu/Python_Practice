@@ -1,0 +1,7 @@
+d1 = dict(jose = 'A+', julian = 'A', javier = 'A-', juan = 'B+')
+d2 = dict(jose = 'A+', julian = 'A')
+d2.update(d1)
+val = d1.pop('jose')
+print(val, d2)
+del(d1['juan'])
+print(d1, d2)
