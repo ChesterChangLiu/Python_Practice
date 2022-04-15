@@ -3,7 +3,6 @@ word = input()
 password = ''
 
 #checking for and modifying user's password if containing the characters: i, a, m, B, or s
-
 for character in word: # update password rather than word
 
     if(character=='i'): #if user's password contains the letter i change to 1
