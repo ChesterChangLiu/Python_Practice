@@ -1,4 +1,5 @@
 while True:
+    
     a = input()
     if (a == 'Done' or a == 'done' or a == 'd'):
         break
