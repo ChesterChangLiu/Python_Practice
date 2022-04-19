@@ -1,5 +1,5 @@
 for val in 'strings':
-    if val == 'g':
+    if val == 'n':
         break
     print(val)
 print('End of the for loop/code')
