@@ -9,7 +9,8 @@ while (fac != "Stop"):
       if (degree == "Undergraduate"): 
          fee = 6000.0
       else:
-         fee = 5000.0       
+         fee = 5000.0
+       
    elif (fac == "Technology"):
       if (degree == "Undergraduate"): 
          fee = 7000.0
@@ -20,7 +21,6 @@ while (fac != "Stop"):
          fee = 4500.0
       else:
          fee = 4000.0
-       
    print("For ",fac," at ",degree," level the fee is $",fee)                   
    print("Enter the Faculty; ", end= ' ') 
    print("Enter Stop to terminate the program: ", end= ' ')
