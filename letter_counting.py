@@ -1,4 +1,4 @@
-print('Enter a line of text:::')
+print('Enter a line of text: ')
 t=input()
 i=0
 nr=0
