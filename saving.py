@@ -1,4 +1,4 @@
-#P4: Program that calculates savings 
+# Program calculates savings 
 initial_savings = 10000
 interest_rate = 0.03
 print('Initial savings of ${}'.format(initial_savings))
