@@ -11,7 +11,6 @@ height = 500
 cols = 25
 rows = 20
 
-
 class cube():
     rows = 20
     w = 500
@@ -26,7 +25,6 @@ class cube():
         self.dirny = dirny
         self.pos  = (self.pos[0] + self.dirnx, self.pos[1] + self.dirny)
             
-
     def draw(self, surface, eyes=False):
         dis = self.w // self.rows
         i = self.pos[0]
@@ -41,7 +39,6 @@ class cube():
             pygame.draw.circle(surface, (0,0,0), circleMiddle, radius)
             pygame.draw.circle(surface, (0,0,0), circleMiddle2, radius)
         
-
 
 class snake():
     body = []
